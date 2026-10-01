@@ -19,7 +19,7 @@ I build production-grade asynchronous backend services and grounded AI systems�
 
 ### Technical Focus
 
-`Asynchronous Microservices` • `Distributed Caching (Redis)` • `Vector Retrieval (RAG)` • `Database Concurrency & Locking` • `Agentic Tool Calling` • `Docker & CI/CD`
+`Asynchronous Microservices` • `Distributed Caching` • `Vector Retrieval` • `Database Concurrency & Locking` • `Agentic Tool Calling` • `Docker & CI/CD`
 
 ---
 
