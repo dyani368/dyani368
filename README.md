@@ -25,7 +25,7 @@ A Copilot Studio agent grounded in SharePoint support content, with Power Automa
 
 `Copilot Studio` · `Power Automate` · `SharePoint` · `Microsoft Teams`
 
-### [Movie Booking System](https://github.com/dyani368/movie-booking)
+### [Movie Booking System]((https://github.com/dyani368/fastapi-movie-booking))
 
 A movie-booking application with authenticated users, admin-managed listings, seat-availability checks, PostgreSQL persistence, and versioned database migrations.
 
