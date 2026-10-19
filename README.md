@@ -1,29 +1,42 @@
 # Dyaneshwar Hawal
 
 **Backend Systems & Applied AI Developer**  
-*FastAPI • PostgreSQL & pgvector • Distributed Caching • Agentic AI Workflows*
+Manipal, India · [Email](mailto:dyanhawal@gmail.com)
 
-I build production-grade asynchronous backend services and grounded AI systems—focusing on high-throughput concurrency, deterministic agentic tool calling, and resilient data pipelines.
+I build backend services and AI applications that are useful beyond a prototype: reliable processing, measurable results, and interfaces that make the underlying evidence visible. My work spans FastAPI, PostgreSQL, Redis, document retrieval, and AWS deployment.
 
----
+## Featured projects
 
-### Featured Projects
+### [Clarity — Clinical Document Intelligence](https://github.com/dyani368/medical_data_extractor)
 
-* **[Clinical AI Document Engine](https://github.com/dyani368/amgen-poc)** — Enterprise clinical RAG pipeline featuring **pgvector** cosine search, dynamic agentic tool-calling dispatch registries, Server-Sent Events (SSE) token streaming, and strict Pydantic validation *(FastAPI + PostgreSQL + LangChain + Docker)*
-* **[High-Throughput URL Shortener](https://github.com/dyani368/url_shortener)** — Distributed URL redirection microservice benchmarked at **4,000+ req/sec** at sub-300ms p95 latency under 300 concurrent connections, with Redis cache-aside and Lua-based token-bucket rate limiting *(FastAPI + Redis + k6 + Docker)*
-* **[Enterprise IT Support Agent](https://github.com/dyani368/contoso-it-support-copilot)** — Internal enterprise support agent packaged in a Power Platform Solution, grounded on SharePoint knowledge bases with automated fulfillment workflows *(Microsoft Copilot Studio + Power Automate + Teams)*
-* **[Transactional Movie Booking System](https://github.com/dyani368/movie-booking)** — Concurrent reservation backend utilizing SQLAlchemy transactional database locks to eliminate race conditions, with stateless JWT authentication and automated Alembic schema migrations *(FastAPI + PostgreSQL + Docker + Nginx)*
+An authenticated workspace for processing clinical PDFs and asking questions grounded in their source pages. It extracts text, tables, and figures; runs ingestion in a persistent worker with retries and restart recovery; and provides document review, conversational answers, citations, and streaming responses. Evaluated on 40 questions, with **90% fully correct responses** and **86.2% retrieval hit@5**.
 
+`FastAPI` · `PostgreSQL` · `pgvector` · `Redis` · `React` · `Docker` · `AWS EC2`
 
----
+### [URL Shortener](https://github.com/dyani368/url_shortener)
 
-### Technical Focus
+An asynchronous URL-redirection service with Redis cache-aside routing, click telemetry, and an atomic Lua token-bucket rate limiter. Benchmarked at **4,000+ requests/second** with **sub-300 ms p95 latency** under 300 concurrent virtual users.
 
-`Asynchronous Microservices` • `Distributed Caching` • `Vector Retrieval` • `Database Concurrency & Locking` • `Agentic Tool Calling` • `Docker & CI/CD`
+`FastAPI` · `PostgreSQL` · `Redis` · `Docker` · `k6`
 
----
+### [Enterprise IT Support Agent](https://github.com/dyani368/contoso-it-support-copilot)
 
-### Connect
+A Copilot Studio agent grounded in SharePoint support content, with Power Automate workflows for common IT requests and a Microsoft Teams interface.
 
-* **Email:** [dyanhawal@gmail.com](mailto:dyanhawal@gmail.com)
-* **Location:** Manipal, India
+`Copilot Studio` · `Power Automate` · `SharePoint` · `Microsoft Teams`
+
+### [Movie Booking System](https://github.com/dyani368/movie-booking)
+
+A movie-booking application with authenticated users, admin-managed listings, seat-availability checks, PostgreSQL persistence, and versioned database migrations.
+
+`FastAPI` · `PostgreSQL` · `SQLAlchemy` · `Alembic` · `Docker`
+
+## What I work with
+
+**Backend:** Python, FastAPI, REST APIs, SQLAlchemy, Pydantic  
+**Data & AI:** PostgreSQL, pgvector, Redis, RAG, embeddings, tool calling  
+**Delivery:** Docker, Linux, AWS EC2, Nginx, GitHub Actions, pytest, k6
+
+## Connect
+
+[Email](mailto:dyanhawal@gmail.com) · [GitHub](https://github.com/dyani368)
